@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;600;700&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head> 
+<body>
+    <div class="contenedor">
+        <div class="navbar">
+            <img src="/img/logo-peq-letras-blancas.png" alt="Logo crepería">
+            <nav>
+                <ul id="menuPpl">
+                    <li><a  href="#">Nosotros</a></li>
+                    <li><a href="#">Reserva</a></li>
+                    <li><a href="#">Menú</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li class="a-redes" ><a href="https://www.facebook.com/LaCreperiaG"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="a-redes" ><a href="https://www.instagram.com/lacreperia.gourmet/"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+            <img src="/img/hamburger-menu-icon-png-white-4.jpg"  class="menu-icon" onclick="desplegar()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1 class="h1-col1"> Crepes <br> <h2 class="h2-col1">Gourmet</h2> </h1>
+                <H3 class="h3-col1">El arte de hacer crepas con amor</H3>   
+            <div class="svg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="226.086" height="95.339" viewBox="0 0 226.086 95.339" >
+                            <!-- Un vínculo alrededor de una forma -->
+                        <a href="#conocenos">
+                       
+                            <g id="Gota" transform="translate(-0.043 -0.001)">
+                              <path id="gota_svg" data-name="gota svg" d="M616,1262.8H842.086s-40.71,1.76-59.043-25.566c-.05-.059-8.134-12.271-24-41.927-12.5-29.748-32-27.5-31.5-27.748-.5,0-21-.5-33.206,27.748-10.544,20.252-8.044,24.252-24.79,41.927C645.376,1265.9,616,1262.8,616,1262.8Z" transform="translate(-615.957 -1167.561)" fill="#fff"/>
+                              <path id="Path_1" data-name="Path 1" d="M96.25,38.834l12.46,14.833,12.04-14.833" transform="translate(1.543 1.419)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+                            </g> </a>
+                          </svg>
+                </div>     
+                </div> 
+        </div>  
+        
+</div>
+<section class="row-2" id="conocenos">
+    <h2 class="h2-row2">CONÓCENOS</h2>
+    <center><img class="img-row2" src="/img/crepe-divisor.png" height="55px" width="55px" alt="Crepe"></center>
+    <div class="p1-row2">
+        <p class="p2-row2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora dolore doloribus ipsam dolores quisquam cumque earum, quia sunt harum necessitatibus, expedita odio magni velit sint, suscipit beatae voluptatibus est laboriosam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis ac nisi quis aliquam. Nam porta suscipit nisl, sit amet efficitur ex venenatis eget. Fusce rhoncus tempor nunc, aliquet aliquet libero malesuada eu. Maecenas purus leo, tincidunt quis interdum sit amet, eleifend eu tellus. Aliquam in elit ut massa volutpat consectetur eu in tellus. Praesent id metus et libero porttitor rutrum non lobortis leo. Maecenas convallis, massa nec hendrerit lobortis, dui nunc rhoncus dolor, sed elementum nunc sapien eu lectus. Sed faucibus dui urna, et consequat enim facilisis id. .</p>
+        <div><a class="a-row2" href="#">LA CREPERÍA GOURMET</a></div>
+    </div>
+</section>
+
+<main class="row-3">
+    <h2 class="h2-row3">Nuestro <br> <h3 class="h3-row3">MENÚ</h3></h2>
+    <div><a href="#" class="a-row3">VER MENÚ</a></div>
+</main>
+    
+<div class="row-4">
+    <div class="col-1Row4">
+        <h2 class="h2-row4"> Deleite <br> <h3 class="h3-row4">GOURMET</h3></h2>
+        <center><img class="imgCrepe" src="/img/crepe-divisor.png" alt=""></center>
+       <p class="p-row4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis ac nisi quis aliquam. Nam porta suscipit nisl, sit amet efficitur ex venenatis eget. Fusce rhoncus tempor nunc, aliquet aliquet libero malesuada eu. Maecenas purus leo, tincidunt quis interdum sit amet, eleifend eu tellus.</p> <div><a class="a-row4" href="#">REALIZA TU PEDIDO AQUÍ</a></div>
+    </div>
+    <div class="col-2Row4">
+        <img class="img-row4" src="/img/crepes-pedidos.jpg" alt="">
+    </div>
+</div>
+
+    <footer class="footer">
+        <p class="p-footer">La Crepería Gourmet • El arte de hacer crepas con amor. <br>
+            Tel. 304-3488001  <br>
+            Sitio web desarrollado por Vanessa Lemus <br>
+            Aviso de Privacidad.</p>
+    </footer>
+
+
+   <script>
+       var menuPpl = document.getElementById("menuPpl");
+       menuPpl.style.maxHeight = "0px";
+       function desplegar(){
+           if(menuPpl.style.maxHeight == "opx"){
+            menuPpl.style.maxHeight = "130px";
+           }
+           else{
+                menuPpl.style.maxHeight = "0px";
+           }
+
+       }
+   </script> 
+   
+</body>
+</html>
